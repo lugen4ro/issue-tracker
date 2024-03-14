@@ -2,7 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, change the `.env_example` file to `.env` and change the environmental variables defined in it.
+First, spin up a MySQL database.
+Then, change the `.env.example` file to `.env` and adjust the environmental variables defined in it, escpecially the `DATABASE_URL`.
+You will also have to setup NextAuth and Google OAuth and specify their settings in `.env`.
 
 Then, run the development server:
 
